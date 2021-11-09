@@ -1,4 +1,4 @@
-Deividas Urbanavičius - Internship
+# Deividas Urbanavičius - Internship
 
 Database name: vaccination. Table: appointment. (config.php)
 
