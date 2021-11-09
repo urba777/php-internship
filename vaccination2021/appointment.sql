@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 08, 2021 at 11:05 AM
+-- Generation Time: Nov 09, 2021 at 04:27 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -41,13 +41,14 @@ CREATE TABLE `appointment` (
 --
 
 INSERT INTO `appointment` (`id`, `name`, `email`, `phone`, `id_number`, `date`) VALUES
-(1, 'Deividas Urbanavičius', 'deividelis7@gmail.com', 68115379, 39513254465, '2021-10-30 09:25:00'),
-(5, 'Petras Petrauskas', 'petraitis@petras.lt', 68845466, 38512313213, '2021-11-30 14:41:00'),
-(7, 'Zita Zitavytė', 'zita123@gmail.com', 54654654, 49512123132, '2021-11-30 19:37:00'),
-(8, 'Paulius Paulauskas', 'paulius@gmail.com', 65151515, 37515156156, '2021-12-05 05:44:00'),
-(9, 'Aidas Aidauskas', 'aidas@gmail.com', 69887846, 32046545646, '2021-12-05 04:26:00'),
-(10, 'Antanas Smetona', 'antanelis@gmail.com', 67896541, 34512121978, '2021-12-05 11:56:00'),
-(11, 'Nerijus Nerijauskas', 'nerijus@gmail.com', 65456156, 37426454561, '2021-11-30 17:44:00');
+(1, 'Deividas Urbanavičius', 'deividelis7@gmail.com', 68115379, 39513254465, '2021-11-01 09:25:00'),
+(2, 'Petras Petrauskas', 'petraitis@petras.lt', 68845466, 38512313213, '2021-11-30 14:41:00'),
+(3, 'Zita Zitavytė', 'zita123@gmail.com', 54654654, 49512123132, '2021-11-30 19:37:00'),
+(4, 'Paulius Paulauskas', 'paulius@gmail.com', 65151515, 37515156156, '2021-12-05 05:44:00'),
+(5, 'Aidas Aidauskas', 'aidas@gmail.com', 69887846, 32046545646, '2021-12-05 04:26:00'),
+(6, 'Antanas Smetona', 'antanelis@gmail.com', 67896541, 34512121978, '2021-12-05 11:56:00'),
+(7, 'Nerijus Nerijauskas', 'nerijus@gmail.com', 65456156, 37426454561, '2021-11-30 17:44:00'),
+(10, 'Jonas Jonaitis', 'jonukas@jonas.lt', 68115379, 37512120514, '2021-10-30 15:30:00');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +68,7 @@ ALTER TABLE `appointment`
 -- AUTO_INCREMENT for table `appointment`
 --
 ALTER TABLE `appointment`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
