@@ -1,6 +1,6 @@
 # Deividas Urbanavičius - Internship
 
-Database name: vaccination. Table: appointment (config.php)
+Database name: vaccination. Table: appointment (config.php) 
 
 SQL file included: appointment.sql
 
