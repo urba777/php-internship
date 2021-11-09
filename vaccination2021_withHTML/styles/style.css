@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #7ea8f8;
+  text-align: center;
+  font-family: 'Mohave', sans-serif;
+}
+
+h2 {
+  color: #ad0505;
+}
+
+.success {
+  color: green;
+}
+
+table {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.myButton {
+  -webkit-box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+          box-shadow: inset 0px 1px 0px 0px #7a8eb9;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #637aad), to(#5972a7));
+  background: linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+  background-color: #637aad;
+  border: 1px solid #314179;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  white-space: nowrap;
+}
+
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #5972a7), to(#637aad));
+  background: linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+  background-color: #5972a7;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #7ea8f8;
+  border-style: solid;
+  color: #000000;
+}
+
+table td, table th {
+  border-width: 2px;
+  border-color: #7ea8f8;
+  border-style: solid;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+}
+
+td.actionButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8px;
+}
+
+.registerForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.registerForm form input {
+  margin: auto;
+  width: 30%;
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #7ea8f8;
+  border-style: solid;
+  color: #000000;
+  padding: 5px;
+}
+
+.registerForm form .importCsv {
+  width: 120px;
+}
+
+.inputTitle {
+  font-weight: 500;
+}
+
+.registerAndExportButtons {
+  padding: 20px 20px;
+  margin: auto;
+  max-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
